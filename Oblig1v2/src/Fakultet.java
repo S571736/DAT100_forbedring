@@ -9,7 +9,8 @@ public class Fakultet {
             n = Integer.parseInt(nString);
         }
 
-        int fak = 1;
+        // Prøvde å unngå max value med å bruke long istedenfor int, det har nok fungert, men ikkje til den grad eg håpte
+        long fak = 1;
         for(int i = 1; i< n; i++){
 
             fak = fak*(i+1);
